@@ -1,0 +1,25 @@
+#navbar {
+    background-color: #212529 !important;
+}
+#navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar .container a {
+    color: white;
+}
+
+#navbar .container .collapse .navbar-nav .nav-item a {
+    color: #969288;
+}
+#navbar .container .collapse .navbar-nav .nav-item a:first-of-type {
+    color: white;
+}
+
+#navbar .container #navbarNav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
